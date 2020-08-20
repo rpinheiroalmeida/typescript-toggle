@@ -1,5 +1,5 @@
-import { MemoryProvider } from "../../lib/memory-provider";
-import { Feature } from "../../lib/feature";
+import { MemoryProvider } from '../../lib/memory-provider';
+import { Feature } from '../../lib/feature';
 
 describe('Memory Provider', () => {
     describe('should be turned on', () => {

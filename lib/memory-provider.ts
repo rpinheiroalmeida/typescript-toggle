@@ -1,4 +1,4 @@
-import { Feature } from "./feature";
+import { Feature } from './feature';
 
 export class MemoryProvider {
 
@@ -9,6 +9,6 @@ export class MemoryProvider {
     }
 
     public isOn(name: string) {
-        return this.features.some(feature => feature.name === name && feature.active)
+        return this.features.some(feature => feature.name === name && feature.active);
     }
 }
